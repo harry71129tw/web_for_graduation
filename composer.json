@@ -1,0 +1,13 @@
+{
+    "name": "chen/project",
+    "authors":[
+        {
+            "name":"chen",
+            "email":"harry71129tw@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "phpmailer/phpmailer": "^6.0.5"
+    }
+}

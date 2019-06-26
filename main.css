@@ -1,0 +1,244 @@
+
+/*登入頁面*/
+
+.login_div{
+	margin: 250px auto;
+	width: 400px;
+	padding: 25px 40px;
+	background-color: white;
+	border-radius: 7px;
+	font-family: "微軟正黑體", Microsoft JhengHei, "黑體-繁", "蘋果儷中黑", sans-serif;
+}
+
+.login_form{
+	padding: 30px 30px;
+	margin: 20px auto;
+}
+
+.login_form input[type=text], .login_form input[type=password]{
+	margin: 8px 0;
+	padding: 10px 12px;
+	width : 100%;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.login_form input[type=submit]{
+	margin: 8px 0;
+	padding: 20px 12px;
+	line-height: 3px;
+	float: right;
+	width: 100%;
+	height: 25px;
+	border: none;
+	border-radius: 4px;
+	border-background: #454545;
+	color: black;
+	cursor: pointer;
+}
+
+.login_form input[type=submit]:hover{
+	background-color: #2B2B2B;
+	color: white;
+}
+
+/*MenuBar*/
+
+.menubar{
+	position: fixed;
+	width: 90%;
+	top: 0px;
+	background-color: #C4C4C4;
+	font-family: "微軟正黑體", Microsoft JhengHei, "黑體-繁", "蘋果儷中黑", sans-serif;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	font-size: 1em;
+	border: none;
+	outline: none;
+	padding: 5px 20px;
+	background-color: inherit; /*繼承顏色*/
+	color: black;
+	text-align: center;
+	font-family: inherit;
+	margin: 0;
+}
+
+.dropdown:hover .dropbtn{
+	background-color: red; 
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+}
+
+.dropdown-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/*頁面左側列表*/
+
+#left_sidebar{
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	top: 15px;
+	overflow: auto;
+	background-color: #5E5E5E;
+	opacity: 1;
+	z-index: 2;
+}
+
+.sidebar{
+	width: 200px;
+	height: 50px;
+	margin: 1em;
+	line-height: 50px;
+	background-color: #454545;
+	box-shadow: 8px 8px 4px black;
+}
+
+.sidebarl{
+    width: 160px;
+    height: 40px;
+    padding-left: 15px;
+    margin-left: 40px;
+	line-height: 40px;
+	background-color: #454545;
+	box-shadow: 8px 8px 4px black;
+}
+
+
+.sidebar:hover,.sidebarl:hover{
+	background-color: #2B2B2B;
+}
+
+.sidebar_text{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+/*頁面主介面*/
+
+#div_content{
+	margin: 20px 0px 0px 275px;
+	position: absolute;
+	background-color: #F2F2F2;
+}
+
+.container{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin: 0 auto;
+}
+
+/*頁面(副)介面*/
+
+.div_site{
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+/*mail發送介面*/
+
+#div_mail{
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+#div_mail input[type=text] {
+	width: 80%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#div_mail input[type=submit], #div_mail input[type=button]{
+	width: 80%;
+	background-color: #454545;
+	color: white;
+	padding:14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;	/*鼠標變化*/
+}
+
+#div_mail input[type=submit]:hover {
+	background-color: #2B2B2B;
+}
+
+#div_mail textarea{
+	padding:12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: none;
+}
+
+/*全域設定*/
+
+a{
+	text-decoration: none;
+}
+
+div{
+	display: block;
+}
+
+.site_button{
+	margin: 8px 0;
+	padding: 10px 12px;
+	line-height: 3px;
+	text-align: center;
+	border: none;
+	border-radius: 4px;
+	background: #454545;
+	color: white;
+	cursor: pointer;
+}
+
+.site_button:hover{
+	background: #2B2B2B;
+}
+
+#textgroup{
+	background-color: #454545;
+	color: white;
+	margin: 1em;
+	box-shadow:7px 7px 3px white;
+	font:17px 新細明體;
+	.AutoNewLine{
+		word-break: break-all;
+	}
+}
